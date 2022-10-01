@@ -1,0 +1,27 @@
+.user__play-list-title {
+    text-align: center;
+    font-size: 46px;
+    color: $secondary;
+    margin-bottom: 30px;
+    font-family: $main;
+    font-weight: 610;
+}
+
+.user__play-list-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.admin__form-upload {
+    display: none;
+}
+
+.book__button {
+    display: block;
+}
+
+.fa {
+    display: none;
+}
+

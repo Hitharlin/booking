@@ -1,0 +1,27 @@
+.main {
+    margin-left: 240px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: $primary-lighter;
+    height: 100%;
+}
+
+.card__delete-button {
+    position: absolute;
+    bottom:8px;
+    right: 8px;
+    padding: 0;
+    border: none;
+}
+
+.card__delete-icon {
+    font-weight: 100;
+    transition: .3s;
+    display: block;
+    width: 100%;
+}
+
+.card__delete-icon:hover {
+    color: $secondary;
+}
+

@@ -1,0 +1,21 @@
+.form {
+    padding: 20px;
+    background-color: $secondary-lighter;
+    border-radius: 36px;
+    box-shadow: 0px 0px 40px -12px $secondary-light;
+    margin: 30px  auto;
+    width: 50%;
+}
+
+.admin__form-uploaded-image-wrapper {
+    width: 290px;
+    max-height: 200px;  //չաշխատեց
+}
+
+.admin__form-aploaded-image {
+    display: block;
+    width: 100%;
+    height: inherit; //չաշխատեց
+    box-shadow: 0px 2px 7px $primary-light;
+}
+

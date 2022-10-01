@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9ca4d6070e.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js" type="module"></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h2>  Admin's page </h2>
+            </div>
+        </div>
+    </header>
+    <aside class="aside">
+        <div class="aside__content">
+            <h1 class="aside__logo">
+                <a href="index.html">:boOK</a>
+            </h1>
+            <nav class="aside__navigation">
+                <ul class="aside__navigation-list">
+                    </li> <li class="aside_navigation-list-item">
+                        <a href="#" class="aside__navigation-list-link">
+                            Poppetry
+                        </a>
+                    </li>
+                    <li class="aside_navigation-list-item">
+                        <a href="#" class="aside__navigation-list-link">
+                            Comedy
+                        </a>
+                    </li>
+                    <li class="aside_navigation-list-item">
+                        <a href="#" class="aside__navigation-list-link">
+                            For Kids
+                        </a>
+                    </li> 
+                    <li class="aside_navigation-list-item">
+                        <a href="#" class="aside__navigation-list-link">
+                            Stend Up
+                        </a>
+                    </li>
+                    <li class="aside_navigation-list-item">
+                        <a href="./admin.html" class="aside__navigation-list-link">
+                            Admin
+                        </a>
+                    </li>
+                    <li class="aside_navigation-list-item">
+                        <a href="./authSignUp.html" class="aside__navigation-list-link">
+                            Sign Up
+                        </a>
+                    </li>
+                    <li class="aside_navigation-list-item">
+                        <a href="./authSignIn.html" class="aside__navigation-list-link">
+                            Sign In
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <main class="main">
+        <div class="container">
+            <div class="admin">
+                
+                <form class="admin__form form">
+                    <div class="form-group">
+                        <label for="name" class="label"> Name </label>
+                        <input id="name" class="admin__form-input base-input" type="text" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="date" class="label"> Date </label>
+                        <input id="date" class="admin__form-input base-input" type="datetime-local" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="price" class="label"> Price</label>
+                        <input id="price"class="admin__form-input base-input" type="text" name="price">
+                    </div>
+                    <div class="form-group">
+                        <input class="admin__form-upload base-input" type="file" name="image" accept="image/*">
+
+                        <!-- <label class="admin__form-upload-label base-button base-button--secondary"for="">
+                            Upload
+                        </label> -->
+                        <div class="admin__form-uploaded-image-wrapper">
+                            <img class="admin__form-aploaded-image" src="" alt="">
+                        </div>
+                    </div>
+                    <button class="admin__form-button base-button base-button--primary">
+                        Create
+                    </button>
+                </form>
+                <div class="admin__play-list">
+                    <h2 class="admin__play-list-title"> Plays</h2>
+                    <div class="admin__play-list-container">
+                        <!-- //cards -->
+                    </div>
+                </div>
+            </div>
+            <button></button>
+            
+        </div>
+    </main>
+
+    <script src="./js/admin.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.admin__play-list-title {
+    text-align: center;
+    font-size: 46px;
+    color: $secondary;
+    margin-bottom: 30px;
+    font-family: $main;
+    font-weight: 610;
+}
+
+.book__button {
+    display: none;
+}
+
+.admin__play-list-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+// .admin__form-upload {
+//     display: none;
+// }
+
+
+
+.card__delete-button {
+    display: block;
+}
+

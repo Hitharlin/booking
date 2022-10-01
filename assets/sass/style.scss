@@ -1,0 +1,28 @@
+@import "./reset";
+
+//abstracts
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+//layout
+@import "./layout/aside.scss";
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/signUp.scss";
+
+//UI
+@import "./UI/baseButton.scss";
+@import "./UI/baseInput.scss";
+@import "./UI/label.scss";
+
+
+//components
+@import "./components/container.scss";
+@import "./components/formGroup.scss";
+@import "./components/form.scss";
+@import "./components/playCard.scss";
+
+
+//pages
+@import "./pages/admin.scss";
+@import "./pages/user.scss";

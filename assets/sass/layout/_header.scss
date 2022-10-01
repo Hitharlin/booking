@@ -1,0 +1,16 @@
+.header {
+    position: fixed;
+    width: calc(100% - 200px);
+    height: 50px;
+    right: 0;
+    top: 0;
+    background-color: $primary;
+    @include flex-box(row, center, center);
+    color: white;
+    font-size: 42px;
+	font-family: $main;
+    padding: 10px 0;
+}
+
+
+

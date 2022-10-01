@@ -1,0 +1,11 @@
+.base-input {
+    display: inline-block;
+    padding: 8px 5px;
+    border: 0.3px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.base-input:focus {
+    background-color: $primary-lighter;
+}

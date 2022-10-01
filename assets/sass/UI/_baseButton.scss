@@ -1,0 +1,50 @@
+.base-button {
+    border: 1px solid $primary;
+    background-color: transparent;
+    padding: 15px 16px;
+    border-radius: 8px;
+    transition: background-colot .1s ease-in-out;
+    position: right;
+    display: block;
+
+
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &--primary {
+        background-color: $primary;
+        color: $white;
+
+        &:hover {
+            background-color: $primary-light;
+        }
+
+        &:active,
+        &:focus {
+            background-color: $primary-dark;;
+        }
+    }
+
+    &--secondary {
+                background-color: $secondary-dark;
+                color: $white;
+                transition: .3s;
+                width: 50px;
+                padding: 5px 10px;
+                text-align: center;
+
+        
+        
+                &:hover {
+                    background-color: $secondary-lighter;
+                    color: $secondary-dark;
+                }
+        
+                &:active,
+                &:focus {
+                    background-color: $secondary-dark;
+                }
+    }
+}
